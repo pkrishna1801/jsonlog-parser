@@ -3,3 +3,31 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+
+sample_sessions.json
+
+# === Scala/SBT ===
+target
+project/target/
+project/project/
+
+# === VSCode ===
+.vscode/
+.history/
+
+# === Metals / Bloop ===
+.metals/
+.bloop/
+.bsp/
+.worksheet/
+
+# === OS Files ===
+.DS_Store
+Thumbs.db
+
+
+# === IntelliJ ===
+.idea/
+*.iml
+out/
+
